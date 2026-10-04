@@ -1,0 +1,78 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Tianyu Jia": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.6084/m9.figshare.7636301",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000306",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000306",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.48550/arxiv.2604.16554",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "Jia2019",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "538 MB (31 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".tsv",
+    ".yaml"
+  ],
+  "description": "A motor-imagery EEG dataset recorded from 15 stroke patients performing cue-based left-hand versus right-hand motor imagery. Data comprise 63-channel EEG (10-10 system) sampled at 512 Hz, with 40 trials per class across two runs. For each patient one hand is paretic and the other unaffected, and both were imagined. The dataset supports brain-computer interface development for neurorehabilitation.",
+  "methods_description": "Cue-based, offline motor imagery paradigm with left_hand and right_hand classes (40 trials each, trial interval 0-6.8 s). EEG was recorded from 63 channels at 512 Hz with 50 Hz line frequency, in one session of two runs per subject. Data are preprocessed and epoched.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "Stroke",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D020521"
+    },
+    {
+      "term": "neurorehabilitation"
+    }
+  ],
+  "source_hash": "812cc4e22c6995645adffd42db0724c857b06eb87476299ef573098d664998a8"
+}
