@@ -1,9 +1,33 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Jia2019: Motor-imagery EEG dataset for stroke patients (Jia 2019)",
+  "description": "EEG recordings from 15 stroke patients performing cue-based left-hand versus right-hand motor imagery, with 40 trials per class. Data were acquired from 63 channels (10-10 system) at 512 Hz in two runs per patient, and are preprocessed and epoched. This BIDS re-release was produced with MOABB for brain-computer interface research and neurorehabilitation.",
+  "methods_description": "Cue-based motor imagery paradigm in which each stroke patient imagined left- and right-hand movements (one hand paretic, the other unaffected). EEG was recorded from 63 channels at 512 Hz with 50 Hz line frequency, in 2 runs for one session per subject, with trials spanning 0 to 6.8 s.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Tianyu Jia": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "Stroke",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D020521"
+    },
+    {
+      "term": "neurorehabilitation"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.6084/m9.figshare.7636301",
@@ -36,14 +60,11 @@
       "relation_type": "References"
     }
   ],
-  "title": "Jia2019",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "538 MB (31 files)"
   ],
@@ -51,28 +72,8 @@
     ".edf",
     ".json",
     ".tsv",
-    ".yaml"
+    ".yaml",
+    ".yml"
   ],
-  "description": "A motor-imagery EEG dataset recorded from 15 stroke patients performing cue-based left-hand versus right-hand motor imagery. Data comprise 63-channel EEG (10-10 system) sampled at 512 Hz, with 40 trials per class across two runs. For each patient one hand is paretic and the other unaffected, and both were imagined. The dataset supports brain-computer interface development for neurorehabilitation.",
-  "methods_description": "Cue-based, offline motor imagery paradigm with left_hand and right_hand classes (40 trials each, trial interval 0-6.8 s). EEG was recorded from 63 channels at 512 Hz with 50 Hz line frequency, in one session of two runs per subject. Data are preprocessed and epoched.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "brain-computer interface"
-    },
-    {
-      "term": "Stroke",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D020521"
-    },
-    {
-      "term": "neurorehabilitation"
-    }
-  ],
-  "source_hash": "812cc4e22c6995645adffd42db0724c857b06eb87476299ef573098d664998a8"
+  "source_hash": "ceb6beb2cebf5bb6b930379c187e5b5aa7e5165868b43ed9290d18780d9829cf"
 }
