@@ -1,5 +1,5 @@
 {
-    "Name": "Jia2019",
+    "Name": "Jia2019: Motor-imagery EEG dataset for stroke patients (Jia 2019)",
     "BIDSVersion": "1.9.0",
     "HEDVersion": "8.4.0",
     "DatasetType": "derivative",
@@ -33,5 +33,8 @@
             "URL": "https://doi.org/10.6084/m9.figshare.7636301"
         }
     ],
-    "PublicationYear": 2019
+    "PublicationYear": 2019,
+    "EthicsApprovals": [
+        "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
+    ]
 }
