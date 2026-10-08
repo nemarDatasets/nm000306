@@ -1,40 +1,44 @@
 {
-    "Name": "Jia2019: Motor-imagery EEG dataset for stroke patients (Jia 2019)",
-    "BIDSVersion": "1.9.0",
-    "HEDVersion": "8.4.0",
-    "DatasetType": "derivative",
-    "License": "CC-BY-4.0",
-    "Authors": [
-        "Tianyu Jia"
-    ],
-    "ReferencesAndLinks": [
-        "https://doi.org/10.6084/m9.figshare.7636301"
-    ],
-    "Keywords": [
-        "motor imagery",
-        "BCI",
-        "brain-computer interface",
-        "EEG",
-        "stroke",
-        "neurorehabilitation"
-    ],
-    "DatasetDOI": "doi:10.6084/m9.figshare.7636301",
-    "GeneratedBy": [
-        {
-            "CodeURL": "https://github.com/NeuroTechX/moabb",
-            "Name": "moabb",
-            "Description": "Mother of All BCI Benchmarks",
-            "Version": "1.8.0dev0"
-        }
-    ],
-    "SourceDatasets": [
-        {
-            "DOI": "10.6084/m9.figshare.7636301",
-            "URL": "https://doi.org/10.6084/m9.figshare.7636301"
-        }
-    ],
-    "PublicationYear": 2019,
-    "EthicsApprovals": [
-        "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
-    ]
+  "Name": "Jia2019: Motor-imagery EEG dataset for stroke patients (Jia 2019)",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Tianyu Jia"
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.6084/m9.figshare.7636301"
+  ],
+  "Keywords": [
+    "motor imagery",
+    "BCI",
+    "brain-computer interface",
+    "EEG",
+    "stroke",
+    "neurorehabilitation"
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000306",
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.8.0dev0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.6084/m9.figshare.7636301",
+      "URL": "https://doi.org/10.6084/m9.figshare.7636301"
+    },
+    {
+      "DOI": "doi:10.6084/m9.figshare.7636301"
+    }
+  ],
+  "PublicationYear": 2019,
+  "EthicsApprovals": [
+    "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
+  ],
+  "Version": "1.0.0"
 }
