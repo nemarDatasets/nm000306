@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Jia2019: Motor-imagery EEG dataset for stroke patients (Jia 2019)",
-  "description": "EEG recordings from 15 stroke patients performing cue-based left-hand versus right-hand motor imagery, with 40 trials per class. Data were acquired from 63 channels (10-10 system) at 512 Hz in two runs per patient, and are preprocessed and epoched. This BIDS re-release was produced with MOABB for brain-computer interface research and neurorehabilitation.",
-  "methods_description": "Cue-based motor imagery paradigm in which each stroke patient imagined left- and right-hand movements (one hand paretic, the other unaffected). EEG was recorded from 63 channels at 512 Hz with 50 Hz line frequency, in 2 runs for one session per subject, with trials spanning 0 to 6.8 s.",
+  "description": "This dataset provides motor-imagery EEG recordings from 15 stroke patients performing cue-based left-hand versus right-hand motor imagery. Data were recorded from 63 EEG channels (10-10 system) at 512 Hz, with 40 trials per class across two runs. It is a BIDS re-release of the original figshare deposit, intended for brain-computer interface research and neurorehabilitation.",
+  "methods_description": "Cue-based left- vs right-hand motor imagery paradigm in stroke patients, where one hand is paretic and the other unaffected. EEG was recorded from 63 channels at 512 Hz with 50 Hz line frequency, in one session of two runs per subject, 40 trials per class, with trial interval 0-6.8 s. Data are preprocessed and epoched.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -11,13 +11,13 @@
   },
   "keywords": [
     {
-      "term": "EEG"
-    },
-    {
       "term": "motor imagery"
     },
     {
       "term": "brain-computer interface"
+    },
+    {
+      "term": "EEG"
     },
     {
       "term": "Stroke",
@@ -66,14 +66,15 @@
     "eeg"
   ],
   "sizes": [
-    "538 MB (31 files)"
+    "1.74 GB (62 files)"
   ],
   "formats": [
     ".edf",
     ".json",
+    ".md",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "source_hash": "ceb6beb2cebf5bb6b930379c187e5b5aa7e5165868b43ed9290d18780d9829cf"
+  "source_hash": "1ca3a75933a820d373a532c6f51795a27c4748bfb103aa4b681650cba561612b"
 }
